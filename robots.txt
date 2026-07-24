@@ -1,3 +1,4 @@
-# Staging build — not for indexing until k2investments.com is switched over.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://k2investment.net/sitemap.xml
