@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.k2investments.com/sitemap.xml
+Sitemap: https://www.k2investment.net/sitemap.xml
