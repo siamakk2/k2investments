@@ -22,6 +22,26 @@
       "source": "/listings/",
       "destination": "/for-sale/",
       "permanent": true
+    },
+    {
+      "source": "/commercial",
+      "destination": "/downtown-los-angeles-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/",
+      "destination": "/downtown-los-angeles-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/1048-s-los-angeles-st",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/1048-s-los-angeles-st/",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
     }
   ]
 }
