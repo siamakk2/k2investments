@@ -159,6 +159,26 @@
       "permanent": true
     },
     {
+      "source": "/post/fashion-district-dtla-commercial-real-estate",
+      "destination": "/news/fashion-district-dtla-commercial-real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/post/buying-commercial-real-estate-in-downtown-la-as-a-foreign-investor",
+      "destination": "/news/foreign-investor-guide-dtla-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/post/a-korean-investor-s-guide-to-downtown-la-commercial-real-estate",
+      "destination": "/news/korean-investor-guide-dtla-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/post/a-guide-for-gulf-and-middle-eastern-investors-downtown-la-commercial-real-estate",
+      "destination": "/news/gulf-middle-east-investor-guide-dtla-commercial/",
+      "permanent": true
+    },
+    {
       "source": "/post/:slug*",
       "destination": "/news/",
       "permanent": true
