@@ -37,7 +37,7 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The Napa development blueprint: the math behind an 18-month build", "description": "How construction financing works on a Napa Valley development: loan-to-cost, interest reserves, draw schedules, and the two ways to take profit out at completion. From K2 Investment, Inc., 30 years in California real estate.", "image": "https://www.k2investment.net/img/90-longhorn-ridge-napa-4.webp", "datePublished": "2026-04-16", "dateModified": "2026-04-16", "inLanguage": "en-US", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.k2investment.net/news/napa-development-blueprint/"}, "author": {"@type": "Person", "name": "Bobak Kalhor", "jobTitle": "President, Founder & Broker of Record", "worksFor": {"@type": "RealEstateAgent", "name": "K2 Investment, Inc."}}, "publisher": {"@type": "RealEstateAgent", "name": "K2 Investment, Inc.", "telephone": "+1-213-624-0490", "url": "https://www.k2investment.net/"}}</script>
 <style>
 :root{--ink:#ffffff;--panel:#f5f7fa;--panel2:#ffffff;--line:#e3e8ef;--line2:#aab8c9;
-  --blue:#1c6cb4;--blue2:#0f4f88;--brass:#8f7214;--text:#0b131c;--muted:#3a4757;--dim:#5c6a7c;
+  --blue:#1c6cb4;--blue2:#0f4f88;--brass:#7a600e;--text:#0b131c;--muted:#3a4757;--dim:#5c6a7c;
   --disp:'Playfair Display',Georgia,serif;--body:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace}
 *{box-sizing:border-box}
 body{margin:0;background:var(--ink);color:var(--text);font-family:var(--body);-webkit-font-smoothing:antialiased}
@@ -138,7 +138,7 @@ section.k{padding:88px 0;border-bottom:1px solid var(--line)}
 .k-foot{padding:64px 0 40px;background:var(--panel)}
 .k-foot-g{display:grid;grid-template-columns:1fr;gap:32px}
 @media(min-width:800px){.k-foot-g{grid-template-columns:2fr 1fr 1fr}}
-.k-foot h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:0 0 16px}
+.k-foot h3{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:0 0 16px}
 .k-foot p,.k-foot a{font-size:14.5px;line-height:1.85;color:var(--muted);text-decoration:none;font-weight:300}
 .k-foot a:hover{color:var(--blue2)}
 .k-legal{border-top:1px solid var(--line);margin-top:44px;padding-top:26px;font-family:var(--mono);font-size:11px;color:var(--dim);line-height:1.8}
@@ -182,7 +182,7 @@ section.k{padding:88px 0;border-bottom:1px solid var(--line)}
 .k-post .k-read{margin-top:auto;font-family:var(--mono);font-size:11.5px;color:var(--blue)}
 .k-article{max-width:760px}
 .k-article p{font-size:16.5px;line-height:1.82;color:var(--muted);font-weight:300;margin:0 0 22px}
-.k-article h3{font-family:var(--disp);font-weight:600;font-size:24px;margin:40px 0 14px;color:var(--text)}
+.k-article h2{font-family:var(--disp);font-weight:600;font-size:24px;margin:40px 0 14px;color:var(--text)}
 .k-article ul{margin:0 0 22px;padding-left:20px}
 .k-article li{font-size:16px;line-height:1.8;color:var(--muted);font-weight:300;margin-bottom:9px}
 .k-article strong{color:var(--text);font-weight:500}
@@ -265,7 +265,7 @@ section.k{padding:88px 0;border-bottom:1px solid var(--line)}
 .k-post .k-read{margin-top:auto;font-family:var(--mono);font-size:11.5px;color:var(--blue)}
 .k-article{max-width:760px}
 .k-article p{font-size:16.5px;line-height:1.82;color:var(--muted);font-weight:300;margin:0 0 22px}
-.k-article h3{font-family:var(--disp);font-weight:600;font-size:24px;margin:40px 0 14px;color:var(--text)}
+.k-article h2{font-family:var(--disp);font-weight:600;font-size:24px;margin:40px 0 14px;color:var(--text)}
 .k-article ul{margin:0 0 22px;padding-left:20px}
 .k-article li{font-size:16px;line-height:1.8;color:var(--muted);font-weight:300;margin-bottom:9px}
 .k-article strong{color:var(--text);font-weight:500}
@@ -333,8 +333,9 @@ section.k{padding:88px 0;border-bottom:1px solid var(--line)}
 
 .k-burger{display:none;flex-direction:column;justify-content:center;gap:4px;width:44px;height:40px;padding:0;background:none;border:1px solid rgba(11,19,28,.30);border-radius:6px;cursor:pointer}.k-burger span{display:block;width:18px;height:1.5px;margin:0 auto;background:var(--text);transition:.22s}.k-burger[aria-expanded="true"] span:nth-child(1){transform:translateY(5.5px) rotate(45deg)}.k-burger[aria-expanded="true"] span:nth-child(2){opacity:0}.k-burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-5.5px) rotate(-45deg)}.k-burger:focus-visible{border-color:var(--blue);outline:none}.k-mnav{display:none;border-top:1px solid var(--line);padding:6px 26px 18px}.k-mnav a{display:block;padding:15px 2px;border-bottom:1px solid var(--line);color:var(--muted);text-decoration:none;font-size:16px;letter-spacing:.01em}.k-mnav a:last-child{border-bottom:0;font-family:var(--mono);font-size:14px;color:var(--blue2)}@media(max-width:940px){.k-burger{display:flex}.k-mnav[data-open="1"]{display:block}}@media(max-width:430px){.k-nav .k-call{display:none}}@media(prefers-reduced-motion:reduce){.k-burger span{transition:none}}
 @media(max-width:1099px){.k-hero{padding:0 0 54px}.k-hero-pg{padding:0 0 46px}.k-hero::before{height:300px;bottom:auto}.k-hero::after{height:300px;bottom:auto;background:linear-gradient(180deg,rgba(255,255,255,0) 62%,rgba(255,255,255,.45) 100%)}.k-hero .wrap{padding-top:334px}.k-hero .wrap::before{display:none}.k-hero h1{max-width:none}}@media(max-width:1099px) and (max-height:720px){.k-hero::before,.k-hero::after{height:228px}.k-hero .wrap{padding-top:260px}}
-.k-article table{width:100%;border-collapse:collapse;margin:6px 0 26px;font-size:15px}.k-article th,.k-article td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:300}.k-article th{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-weight:400;border-bottom:1px solid var(--line2)}.k-article td strong,.k-article th strong{color:var(--text);font-weight:500}.k-article .k-note{border-left:2px solid var(--line2);padding:4px 0 4px 18px;margin:0 0 24px;font-size:15px;line-height:1.75;color:var(--dim);font-weight:300}.k-article h4{font-family:var(--body);font-weight:500;font-size:17px;margin:28px 0 10px;color:var(--text)}</style></head><body>
-<nav class="k-nav"><div class="k-nav-in"><a class="k-brand" href="/"><img src="/img/k2-mark-2026.webp" alt="K2 Investment, Inc. — Commercial Real Estate" width="900" height="757" decoding="async"><span><b>K2 INVESTMENT</b><i>EST. 1994 &middot; LOS ANGELES</i></span></a><a class="k-l" href="/">Home</a><a class="k-l" href="/firm/">The Firm</a><a class="k-l" href="/transactions/">Track Record</a><a class="k-l" href="/for-sale/">For Sale</a><a class="k-l" href="/for-lease/">For Lease</a><a class="k-l" href="/downtown-los-angeles-commercial/">DTLA Commercial</a><a class="k-l" href="/napa/">Napa Valley</a><a class="k-l" href="/news/">Insights</a><a class="k-l" href="/contact/">Contact</a><a class="k-call" href="tel:+12136240490">(213) 624-0490</a><button class="k-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="k-mnav"><span></span><span></span><span></span></button></div><div class="k-mnav" id="k-mnav"><a href="/">Home</a><a href="/firm/">The Firm</a><a href="/transactions/">Track Record</a><a href="/for-sale/">For Sale</a><a href="/for-lease/">For Lease</a><a href="/downtown-los-angeles-commercial/">DTLA Commercial</a><a href="/napa/">Napa Valley</a><a href="/news/">Insights</a><a href="/contact/">Contact</a><a href="tel:+12136240490">(213) 624-0490</a></div></nav><header class="k-hero k-hero-pg" id="top" style="--hero:url('/img/90-longhorn-ridge-napa-4.webp')"><div class="wrap"><span class="k-est">K2 Insights &middot; April 2026</span><h1>The Napa development blueprint: the math behind an 18-month build</h1><p class="k-sub">Developing in Napa is not about how much cash you have. It is about how construction financing lets you manufacture value with the bank carrying most of the cost.</p><div class="k-cta"><a class="k-btn k-btn-p" href="/napa/">Napa Valley property</a><a class="k-btn k-btn-g" href="tel:+12136240490">Call (213) 624-0490</a></div></div></header><section class="k"><div class="wrap"><div class="k-lab">April 2026 &middot; K2 Insights</div><article class="k-article"><p>The common misconception about developing luxury property in Napa Valley is that you need an
+.k-article table{width:100%;border-collapse:collapse;margin:6px 0 26px;font-size:15px}.k-article th,.k-article td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);color:var(--muted);font-weight:300}.k-article th{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-weight:400;border-bottom:1px solid var(--line2)}.k-article td strong,.k-article th strong{color:var(--text);font-weight:500}.k-article .k-note{border-left:2px solid var(--line2);padding:4px 0 4px 18px;margin:0 0 24px;font-size:15px;line-height:1.75;color:var(--dim);font-weight:300}.k-article h3{font-family:var(--body);font-weight:500;font-size:17px;margin:28px 0 10px;color:var(--text)}</style></head><body>
+<nav class="k-nav"><div class="k-nav-in"><a class="k-brand" href="/"><img src="/img/k2-mark-2026.webp" alt="K2 Investment, Inc. — Commercial Real Estate" width="900" height="757" decoding="async"><span><b>K2 INVESTMENT</b><i>EST. 1994 &middot; LOS ANGELES</i></span></a><a class="k-l" href="/">Home</a><a class="k-l" href="/firm/">The Firm</a><a class="k-l" href="/transactions/">Track Record</a><a class="k-l" href="/for-sale/">For Sale</a><a class="k-l" href="/for-lease/">For Lease</a><a class="k-l" href="/downtown-los-angeles-commercial/">DTLA Commercial</a><a class="k-l" href="/napa/">Napa Valley</a><a class="k-l" href="/news/">Insights</a><a class="k-l" href="/contact/">Contact</a><a class="k-call" href="tel:+12136240490">(213) 624-0490</a><button class="k-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="k-mnav"><span></span><span></span><span></span></button></div><div class="k-mnav" id="k-mnav"><a href="/">Home</a><a href="/firm/">The Firm</a><a href="/transactions/">Track Record</a><a href="/for-sale/">For Sale</a><a href="/for-lease/">For Lease</a><a href="/downtown-los-angeles-commercial/">DTLA Commercial</a><a href="/napa/">Napa Valley</a><a href="/news/">Insights</a><a href="/contact/">Contact</a><a href="tel:+12136240490">(213) 624-0490</a></div></nav>
+<main id="main"><header class="k-hero k-hero-pg" id="top" style="--hero:url('/img/90-longhorn-ridge-napa-4.webp')"><div class="wrap"><span class="k-est">K2 Insights &middot; April 2026</span><h1>The Napa development blueprint: the math behind an 18-month build</h1><p class="k-sub">Developing in Napa is not about how much cash you have. It is about how construction financing lets you manufacture value with the bank carrying most of the cost.</p><div class="k-cta"><a class="k-btn k-btn-p" href="/napa/">Napa Valley property</a><a class="k-btn k-btn-g" href="tel:+12136240490">Call (213) 624-0490</a></div></div></header><section class="k"><div class="wrap"><div class="k-lab">April 2026 &middot; K2 Insights</div><article class="k-article"><p>The common misconception about developing luxury property in Napa Valley is that you need an
 insurmountable amount of your own cash to start. Significant capital is required &mdash; but the
 sophisticated play is not using your money. It is using the bank&rsquo;s money to manufacture value.</p>
 
@@ -344,39 +345,39 @@ remains wide. The profit sits in the <strong>development</strong> &mdash; in for
 
 <p>Here is the financial shape of an 18-month development project run on construction financing.</p>
 
-<h3>1. The anatomy of construction financing</h3>
+<h2>1. The anatomy of construction financing</h2>
 
 <p>Development uses two kinds of leverage working in tandem.</p>
 
-<h4>The all-in total project cost</h4>
+<h3>The all-in total project cost</h3>
 <p>First you need the whole budget, the <strong>total project cost</strong>. It is not just the
 build. <strong>Hard costs</strong> are materials, labour and land. <strong>Soft costs</strong> are
 architectural fees, engineering, city permits, environmental reports, the construction loan interest
 reserve, and a contingency &mdash; usually around ten per cent.</p>
 
-<h4>Loan-to-cost, not loan-to-value</h4>
+<h3>Loan-to-cost, not loan-to-value</h3>
 <p>This is the metric that matters. Traditional mortgages look at loan-to-value; construction
 lenders look at <strong>loan-to-cost</strong>. A strong developer might secure an LTC of 75 to 80
 per cent, meaning the bank funds most of the budget and you or your investors bring the balance as
 equity.</p>
 
-<h4>The interest reserve</h4>
+<h3>The interest reserve</h3>
 <p>One of the better features of a construction loan. Because the project produces no income while
 it is being built, the bank folds the expected monthly interest into the loan amount itself. They
 are lending you the money to pay their own interest, which keeps interest out of your pocket during
 the build.</p>
 
-<h3>2. An illustrative 18-month pro forma</h3>
+<h2>2. An illustrative 18-month pro forma</h2>
 
 <p>Take a luxury modern farmhouse on a strong Napa site &mdash; say a flat one-acre parcel outside
 St. Helena, zoned for a main residence and an ADU, listed at $950,000.</p>
 
-<h4>Phase one: land and soft costs, months 1&ndash;6</h4>
+<h3>Phase one: land and soft costs, months 1&ndash;6</h3>
 <p>Land at $950,000, with roughly $150,000 in soft costs for architect, permits and impact fees.
 Entry capital of about $1.1 million. The play here is to secure a land loan to lock up the site,
 then roll it into construction financing as soon as permits allow.</p>
 
-<h4>Phase two: construction draws, months 6&ndash;18</h4>
+<h3>Phase two: construction draws, months 6&ndash;18</h3>
 <p>Once permits are ready, the land loan converts to a construction loan at 80 per cent LTC. On a
 4,000 sq ft luxury build at roughly $500 per foot, hard costs run about $2 million, putting total
 project cost near $3.1 million. The loan covers $2.48 million; your equity position is around
@@ -387,7 +388,7 @@ schedule tied to milestones &mdash; foundation, framing, finishes, landscaping. 
 draw requests, the bank verifies the work and pays the contractors directly. Your cash outlay stays
 minimal throughout.</p>
 
-<h3>3. The payout at month 18</h3>
+<h2>3. The payout at month 18</h2>
 
 <p>The home is complete, landscaped and staged, and the market now reads it as a premium turnkey
 asset. Against comparable sales, an after-repair value of $5.2 million is realistic.</p>
@@ -400,19 +401,19 @@ asset. Against comparable sales, an after-repair value of $5.2 million is realis
 <tr><td><strong>Gross profit margin</strong></td><td>$2,100,000</td><td>Market value less cost</td></tr>
 </table>
 
-<h4>Exit A &mdash; the sale</h4>
+<h3>Exit A &mdash; the sale</h3>
 <p>The common play on this timeline. List on completion; the buyer&rsquo;s financing retires your
 $2.48 million construction loan, your $620,000 equity comes back, and the gross profit follows
 &mdash; before commissions and transfer taxes. The gain is realised inside eighteen months.</p>
 
-<h4>Exit B &mdash; the take-out loan</h4>
+<h3>Exit B &mdash; the take-out loan</h3>
 <p>If you want to keep the asset, you retire the interest-only construction loan with a take-out
 loan, sometimes called a perm loan or cash-out refinance. A lender assessing the new $5.2 million
 value might offer 70 per cent LTV, or $3.64 million. That clears the construction loan and leaves
 roughly $1.16 million in proceeds &mdash; returning your equity and putting real liquidity in hand
 while you still own the property.</p>
 
-<h3>The Napa reality</h3>
+<h2>The Napa reality</h2>
 
 <p>The scenario above is illustrative; it demonstrates the arithmetic, not a guarantee. Real
 development in Napa demands meticulous execution. With more selective buyers in the current market,
@@ -420,7 +421,8 @@ location and quality are not negotiable &mdash; the math only works if you build
 actually wants.</p>
 
 <p>We know the banks, we know the contractors, and we know which lots are entitled and ready to go.
-If you have a site in mind, we will run the numbers on it with you.</p></article></div></section><section class="k"><div class="wrap"><div class="k-cta-band"><div class="k-lab">Talk it through</div><p class="lede">Thirty years of California transactions behind every answer. Call the broker directly.</p><div class="k-cta"><a class="k-btn k-btn-p" href="/contact/">Contact K2</a><a class="k-btn k-btn-g" href="/news/">More insights</a></div></div></div></section><footer class="k-foot"><div class="wrap"><div class="k-foot-g"><div><a class="k-brand" href="/" style="margin-bottom:18px"><img src="/img/k2-mark-2026.webp" alt="K2 Investment, Inc. — Commercial Real Estate" width="900" height="757" decoding="async"><span><b>K2 INVESTMENT</b><i>EST. 1994 &middot; LOS ANGELES</i></span></a><p>Boutique commercial real estate brokerage serving Downtown Los Angeles since 1994, and Napa Valley estate and land clients throughout California.</p></div><div><h4>Office</h4><p>530 E 8th Street, Suite 400<br>Los Angeles, CA 90014</p><p><a href="tel:+12136240490">(213) 624-0490</a><br><a href="mailto:bk@k2investments.com">bk@k2investments.com</a><br>Mon&ndash;Fri 9am&ndash;6pm</p></div><div><h4>Explore</h4><p><a href="/">Home</a><br><a href="/firm/">The Firm</a><br><a href="/downtown-los-angeles-commercial/">DTLA Commercial</a><br><a href="/napa/">Napa Valley</a><br><a href="/news/">Insights</a><br><a href="/contact/">Contact</a><br></p><h4 style="margin-top:22px">Also by K2</h4><p><a href="https://k2propertymanagment.com" target="_blank" rel="noopener">K2 Property Management &rarr;</a></p></div></div><div class="k-legal">K2 Investment, Inc. &mdash; California real estate brokerage. Firm CA DRE #01201662 &nbsp;|&nbsp; Bobak Kalhor, Broker of Record, CA DRE #01198998 &nbsp;|&nbsp; Siamak Kalhor, CA DRE #00908799<br>Equal Housing Opportunity. All information deemed reliable but not guaranteed and subject to change, prior sale or withdrawal without notice.<br>&copy; 2026 K2 Investment, Inc.</div></div></footer>
+If you have a site in mind, we will run the numbers on it with you.</p></article></div></section><section class="k"><div class="wrap"><div class="k-cta-band"><div class="k-lab">Talk it through</div><p class="lede">Thirty years of California transactions behind every answer. Call the broker directly.</p><div class="k-cta"><a class="k-btn k-btn-p" href="/contact/">Contact K2</a><a class="k-btn k-btn-g" href="/news/">More insights</a></div></div></div></section></main>
+<footer class="k-foot"><div class="wrap"><div class="k-foot-g"><div><a class="k-brand" href="/" style="margin-bottom:18px"><img src="/img/k2-mark-2026.webp" alt="K2 Investment, Inc. — Commercial Real Estate" width="900" height="757" decoding="async"><span><b>K2 INVESTMENT</b><i>EST. 1994 &middot; LOS ANGELES</i></span></a><p>Boutique commercial real estate brokerage serving Downtown Los Angeles since 1994, and Napa Valley estate and land clients throughout California.</p></div><div><h3>Office</h3><p>530 E 8th Street, Suite 400<br>Los Angeles, CA 90014</p><p><a href="tel:+12136240490">(213) 624-0490</a><br><a href="mailto:bk@k2investments.com">bk@k2investments.com</a><br>Mon&ndash;Fri 9am&ndash;6pm</p></div><div><h3>Explore</h3><p><a href="/">Home</a><br><a href="/firm/">The Firm</a><br><a href="/downtown-los-angeles-commercial/">DTLA Commercial</a><br><a href="/napa/">Napa Valley</a><br><a href="/news/">Insights</a><br><a href="/contact/">Contact</a><br></p><h3 style="margin-top:22px">Also by K2</h3><p><a href="https://k2propertymanagment.com" target="_blank" rel="noopener">K2 Property Management &rarr;</a></p></div></div><div class="k-legal">K2 Investment, Inc. &mdash; California real estate brokerage. Firm CA DRE #01201662 &nbsp;|&nbsp; Bobak Kalhor, Broker of Record, CA DRE #01198998 &nbsp;|&nbsp; Siamak Kalhor, CA DRE #00908799<br>Equal Housing Opportunity. All information deemed reliable but not guaranteed and subject to change, prior sale or withdrawal without notice.<br>&copy; 2026 K2 Investment, Inc.</div></div></footer>
 <script>(function(){var b=document.querySelector(".k-burger"),m=document.getElementById("k-mnav");if(!b||!m)return;b.addEventListener("click",function(){var o=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",o?"false":"true");b.setAttribute("aria-label",o?"Open menu":"Close menu");if(o){m.removeAttribute("data-open")}else{m.setAttribute("data-open","1")}});m.addEventListener("click",function(e){if(e.target.tagName==="A"){b.setAttribute("aria-expanded","false");m.removeAttribute("data-open")}});document.addEventListener("keydown",function(e){if(e.key==="Escape"&&m.hasAttribute("data-open")){b.setAttribute("aria-expanded","false");m.removeAttribute("data-open");b.focus()}})})();</script>
 </body>
 </html>
