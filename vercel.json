@@ -182,6 +182,86 @@
       "source": "/post/:slug*",
       "destination": "/news/",
       "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles/",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/napa-valley-properties",
+      "destination": "/napa/",
+      "permanent": true
+    },
+    {
+      "source": "/napa-valley-properties/",
+      "destination": "/napa/",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/firm/",
+      "permanent": true
+    },
+    {
+      "source": "/about/",
+      "destination": "/firm/",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/firm/",
+      "permanent": true
+    },
+    {
+      "source": "/services/",
+      "destination": "/firm/",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions/",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions/",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy/",
+      "permanent": true
     }
   ]
 }
