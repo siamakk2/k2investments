@@ -179,11 +179,6 @@
       "permanent": true
     },
     {
-      "source": "/post/:slug*",
-      "destination": "/news/",
-      "permanent": true
-    },
-    {
       "source": "/1048-los-angeles",
       "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
       "permanent": true
@@ -261,6 +256,156 @@
     {
       "source": "/privacy-policy/",
       "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles-st-listing",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/post/the-napa-development-blueprint-the-math-behind-the-18-month-profit/",
+      "destination": "/news/napa-development-blueprint/",
+      "permanent": true
+    },
+    {
+      "source": "/post/maximizing-profits-investing-in-land-with-water-for-housing-developments-using-bank-financing/",
+      "destination": "/news/land-with-water-rights-development-financing/",
+      "permanent": true
+    },
+    {
+      "source": "/post/los-angeles-property-values-are-surging-a-guide-to-the-hottest-submarkets/",
+      "destination": "/news/la-submarkets-property-values-surging/",
+      "permanent": true
+    },
+    {
+      "source": "/post/a-deep-dive-into-the-los-angeles-multifamily-market-what-to-expect-from-rent-growth/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/post/los-angeles-housing-crisis-a-growing-opportunity-for-multifamily-investors/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/post/us-industrial-real-estate-outlook-headwinds-and-opportunities/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/post/industrial-leases-in-los-angeles-a-look-at-the-q2-2025-market/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/post/filling-the-void-who-s-revitalizing-los-angeles-big-box-retail-landscape/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/post/investor-acquires-historic-los-angeles-multifamily-portfolio-a-k2investments-analysis/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/post/test-test/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/company/",
+      "destination": "/firm/",
+      "permanent": true
+    },
+    {
+      "source": "/realestateservices-dtla/",
+      "destination": "/firm/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-properties/",
+      "destination": "/downtown-los-angeles-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/napavalley-properties/",
+      "destination": "/napa/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-k2investments/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/categories/real-estate-news/",
+      "destination": "/news/",
+      "permanent": true
+    },
+    {
+      "source": "/property-search/",
+      "destination": "/downtown-los-angeles-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/blank-3/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/blank-4/",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/property/penthouse-loft-530-e-8th-st/",
+      "destination": "/downtown-los-angeles-commercial/530-e-8th-street-penthouse-loft/",
+      "permanent": true
+    },
+    {
+      "source": "/property/1024-santee-st/",
+      "destination": "/downtown-los-angeles-commercial/1024-santee-street/",
+      "permanent": true
+    },
+    {
+      "source": "/property/530-east-8th-st/",
+      "destination": "/downtown-los-angeles-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/post/fashion-district-dtla-commercial-real-estate/",
+      "destination": "/news/fashion-district-dtla-commercial-real-estate/",
+      "permanent": true
+    },
+    {
+      "source": "/post/buying-commercial-real-estate-in-downtown-la-as-a-foreign-investor/",
+      "destination": "/news/foreign-investor-guide-dtla-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/post/a-korean-investor-s-guide-to-downtown-la-commercial-real-estate/",
+      "destination": "/news/korean-investor-guide-dtla-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/post/a-guide-for-gulf-and-middle-eastern-investors-downtown-la-commercial-real-estate/",
+      "destination": "/news/gulf-middle-east-investor-guide-dtla-commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles-st-listing/",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/post/:slug*",
+      "destination": "/news/",
       "permanent": true
     }
   ]
