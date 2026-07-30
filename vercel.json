@@ -14,6 +14,16 @@
   ],
   "redirects": [
     {
+      "source": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/ko/",
+      "destination": "/ko/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/ko",
+      "destination": "/ko/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
       "source": "/listings",
       "destination": "/for-sale/",
       "permanent": true
