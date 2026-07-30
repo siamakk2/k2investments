@@ -14,6 +14,36 @@
   ],
   "redirects": [
     {
+      "source": "/1048-los-angeles-st/",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles-st",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-s-los-angeles-street/",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-s-los-angeles-street",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles-street/",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
+      "source": "/1048-los-angeles-street",
+      "destination": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
+      "permanent": true
+    },
+    {
       "source": "/downtown-los-angeles-commercial/1048-s-los-angeles-st/ko/",
       "destination": "/ko/downtown-los-angeles-commercial/1048-s-los-angeles-st/",
       "permanent": true
