@@ -12,6 +12,13 @@ clients work directly with the broker rather than junior agents.
 Office: 530 E 8th Street, Suite 400, Los Angeles, CA 90014
 Phone: (213) 624-0490 · Email: bk@k2investments.com
 
+## Free Tools
+
+- [K2 Parcel Finder](https://www.k2investments.com/parcel-finder/) — instant California land
+  feasibility: type any address or APN and get zoning, buildable potential, FEMA flood and
+  fire-hazard status, AI entitlement intelligence, an investment score and a PDF report.
+  Covers major California counties with statewide expansion under way.
+
 ## Markets
 
 - Downtown Los Angeles — Fashion District, Flower District, Garment District (Santee Street,
